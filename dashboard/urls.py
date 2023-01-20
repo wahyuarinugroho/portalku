@@ -16,4 +16,5 @@ urlpatterns = [
     path('book',views.book,name="book"),
     path('dictionary',views.dictionary,name="dictionary"),
     path('wiki',views.wiki,name="wiki"),
+    path('conversion',views.conversion,name="conversion"),
 ]
